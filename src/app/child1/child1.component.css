@@ -1,0 +1,8 @@
+mat-card {
+    flex: 1;
+    max-width: 300px;
+}
+
+.mat-button{
+    margin-top: 8px;
+}

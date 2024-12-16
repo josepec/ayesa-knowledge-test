@@ -1,0 +1,15 @@
+mat-card {
+    flex: 1;
+    max-width: 300px;
+}
+
+.mat-button{
+    margin-top: 8px;
+}
+
+.card-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;                     
+}

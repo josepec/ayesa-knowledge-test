@@ -1,0 +1,10 @@
+<div class="card-container">
+    <app-child1 [fatherMsg]="fatherMsg" />
+    <mat-card appearance="outlined">
+        <mat-card-title>Father</mat-card-title>
+        <mat-card-content>
+            <button class="mat-button" mat-raised-button (click)="send()">Send Msg</button>
+        </mat-card-content>
+    </mat-card>
+    <app-child2 [fatherMsg]="fatherMsg" />
+</div>
